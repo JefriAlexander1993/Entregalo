@@ -1,14 +1,16 @@
 Laravel 7
 1. Descargar el proyecto.
-2. Se debe instalar xammp 3.3.0, tener una versión de php 7.2.5.
+2. Se debe instalar xammp 3.3.0, tener una versión de php 7.2.5(!importante).
 3. Tener instalado composer. 
-4. Configuar el archivo .env, para establece la conexión de la base datos.
-5. Ejecutar los siguientes comando.
-	1. php artisan optimize.
-	2. php artisan key:generate
-	3. php artisan migrate.
+4. Primero le realizas una copia al archivo .env.example. Luego configua el archivo .env, para establece la conexión de la base datos. 
+5. Tener instalado node.js
+6. Ejecutar el comando npm install y npm run dev
+7. Ejecutar los siguientes comando.
+	1. php artisan cache:clear.
+        2. php artisan config:cache
+	3. php artisan config:clear
+	4. php artisan key:generate
+	5. php artisan migrate.
 
-6. Tener instalado node.js
-7. Ejecutar el comando npm install y npm run dev
 8. Ejecutar php artisan serve
  
